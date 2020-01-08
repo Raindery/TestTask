@@ -317,6 +317,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d26db536acf4f94bbc19a96f3991938, type: 3}
+--- !u!1 &910065855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8004110748573021876, guid: 696ac3ac867733846a912065d30bbd8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6220850171360029578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &910065856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910065855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe90c02c7e7bdbe4dbd1abb2f46fce1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetSettings: {fileID: 11400000, guid: 896349f493b5b3c47b0efecf649bff90, type: 2}
+  ball: {fileID: 240607070}
+  panel: {fileID: 270861798}
+  camera: {fileID: 519420031}
 --- !u!1 &1173817766
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +568,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1356529783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8004110747671362165, guid: 696ac3ac867733846a912065d30bbd8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6220850171360029578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1356529784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356529783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe90c02c7e7bdbe4dbd1abb2f46fce1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetSettings: {fileID: 11400000, guid: dd291486d9e20314ba32bc24645d5dc7, type: 2}
+  ball: {fileID: 240607070}
+  panel: {fileID: 270861798}
+  camera: {fileID: 519420031}
 --- !u!1001 &1436184966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,6 +909,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1602046250}
     m_Modifications:
+    - target: {fileID: 6220850170214263395, guid: 696ac3ac867733846a912065d30bbd8e,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Jump Count: 0'
+      objectReference: {fileID: 0}
     - target: {fileID: 6220850170969536131, guid: 696ac3ac867733846a912065d30bbd8e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -895,6 +944,11 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6220850170969536141, guid: 696ac3ac867733846a912065d30bbd8e,
+        type: 3}
+      propertyPath: m_Name
+      value: ButtonEarth
+      objectReference: {fileID: 0}
     - target: {fileID: 6220850171093364332, guid: 696ac3ac867733846a912065d30bbd8e,
         type: 3}
       propertyPath: m_Name
@@ -1005,6 +1059,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8004110747671362165, guid: 696ac3ac867733846a912065d30bbd8e,
+        type: 3}
+      propertyPath: m_Name
+      value: ButtonMoon
+      objectReference: {fileID: 0}
     - target: {fileID: 8004110747671362171, guid: 696ac3ac867733846a912065d30bbd8e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1035,6 +1094,11 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 8004110748573021876, guid: 696ac3ac867733846a912065d30bbd8e,
+        type: 3}
+      propertyPath: m_Name
+      value: ButtonJupiter
+      objectReference: {fileID: 0}
     - target: {fileID: 8004110748573021882, guid: 696ac3ac867733846a912065d30bbd8e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
